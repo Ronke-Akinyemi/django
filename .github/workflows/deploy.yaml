@@ -3,6 +3,7 @@ name: Testing CI/CD
 on:
   push:
     branches: ["main"]
+  workflow_dispatch:
   # pull_request:
   #   branches: ["main"]
 
@@ -11,4 +12,4 @@ jobs:
     runs-on : ubuntu-latest
     steps:
     - name: Shoutout
-    - run: echo "Hello everyone"
+      run: echo "Hello everyone"
