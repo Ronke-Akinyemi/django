@@ -34,7 +34,7 @@ DJANGO API TEMPLATE PROJECT
 <hr>
 
 1. Create a .env file by and add all needed enviroment variables
-
+1. add
 1. Start server.
 
 ```sh
