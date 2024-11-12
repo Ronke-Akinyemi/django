@@ -1,0 +1,14 @@
+name: Testing CI/CD
+
+on:
+  push:
+    branches: ["main"]
+  # pull_request:
+  #   branches: ["main"]
+
+jobs: 
+  greet: 
+    runs-on : ubuntu-latest
+    steps:
+    - name: Shoutout
+    - run: echo "Hello everyone"
